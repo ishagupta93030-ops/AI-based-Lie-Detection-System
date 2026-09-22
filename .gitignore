@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+venv*/
+.venv/
+env/
+ENV/
+.conda/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary user uploads and generated artifacts
+uploads/*
+!uploads/.gitkeep
+history/*
+!history/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Databases & local session state
+*.db
+*.sqlite3
+*.db-journal
+
+# Large binary tools & archives (e.g. FFmpeg binaries exceeding GitHub's file size limit)
+tools/ffmpeg/
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
